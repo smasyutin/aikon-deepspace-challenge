@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/smasyutinLohika/aikon-deepspace-challenge#readme",
   "dependencies": {
-    "@apimarket/apimarket": "^0.7.9"
+    "@apimarket/apimarket": "^0.7.9",
+    "delay": "^3.0.0"
   }
 }
