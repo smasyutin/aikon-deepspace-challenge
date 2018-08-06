@@ -35,9 +35,9 @@ const run = async (bucket, files) => {
             const response = await apimarketClient.fetch(apiName, params);
             console.log(`Execution for ${file} \n${JSON.stringify(response, null, 2)}\n`);
 
-            // delay for 2 second to prevent transaction override exception:
+            // delay for 100 ms to prevent transaction override exception:
             // previous transaction must complete before we start a new one
-            await delay(2000);
+            await delay(100);
         }
     }
     catch(error) {
