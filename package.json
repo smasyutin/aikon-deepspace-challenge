@@ -1,0 +1,29 @@
+{
+  "name": "aikon-deepspace-challenge",
+  "version": "1.0.0",
+  "description": "AIKON Deep Space Bounty Hunters Challenge code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smasyutinLohika/aikon-deepspace-challenge.git"
+  },
+  "keywords": [
+    "aikon",
+    "ethereum",
+    "deep",
+    "space",
+    "challenge"
+  ],
+  "author": "Serhiy Masyutin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smasyutinLohika/aikon-deepspace-challenge/issues"
+  },
+  "homepage": "https://github.com/smasyutinLohika/aikon-deepspace-challenge#readme",
+  "dependencies": {
+    "@apimarket/apimarket": "^0.7.9"
+  }
+}
